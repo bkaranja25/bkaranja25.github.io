@@ -1,6 +1,7 @@
   /* main stylesheet*/
 body {
-  background: green;
+  background: teal;
+    width: 800px;
 }
   
 h1{
@@ -10,4 +11,8 @@ h1{
 
 h1 span{
   color:red;
+}
+
+p{
+  background: green;
 }
