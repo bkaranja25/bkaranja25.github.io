@@ -1,0 +1,108 @@
+  /* main stylesheet*/
+
+
+body {
+  background: #651D0A;
+  font-size: 2em;
+  margin: 0 auto;
+  display: block;
+}
+.homepage {
+  width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+  
+.bio {
+  display: block;
+  margin: 0 auto;
+  width: 1000px;
+  background: whte;
+}
+
+  
+h1{
+  text-align: center;
+  font-family: 'Limelight', cursive;
+  color: white;
+}
+
+
+
+
+
+  
+
+
+
+nav li {
+  display: inline-block;
+  font-size: 1em;
+  padding: 10px;
+ }
+nav ul {
+ text-align: center;
+}
+a {
+  color: green;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: orange
+}
+a:visited {
+  color: orange;
+}
+a {
+  text-decoration: none
+}
+nav li {
+  background: white;
+}
+
+
+.bio {
+  text-align: center;
+}
+
+.quote {
+  background: #651D0A;
+ width: 900px;
+  text-align: center;
+  margin: 0 0 0 16.7em;
+  
+}
+p, li {
+  font-family: 'Domine', serif;
+  font-size: 16px;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+h3 {
+ 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+
+
+h1,h2,h3,h4,li,p {
+  color: white;
+}
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+@import url(https://fonts.googleapis.com/css?family=Domine);
+
+ 
+
