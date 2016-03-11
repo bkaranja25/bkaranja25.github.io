@@ -1,18 +1,135 @@
   /* main stylesheet*/
+
+
 body {
-  background: teal;
-    width: 800px;
+  background: #651D0A;
+  font-size: 2em;
+  margin: 0 auto;
+  display: block;
 }
+.homepage {
+  width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+  
+.bio {
+  display: block;
+  margin: 0 auto;
+  width: 1000px;
+  background: whte;
+}
+
   
 h1{
   text-align: center;
-  font-family:audiowide, serif;
+  font-family: 'Limelight', cursive;
+  color: white;
 }
 
-h1 span{
-  color:red;
+
+
+
+
+  
+
+
+
+nav li {
+  display: inline-block;
+  font-size: .5em;
+  padding: 10px;
+ }
+nav ul {
+ text-align: left;
+}
+a {
+  color: green;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: orange
+}
+a:visited {
+  color: orange;
+}
+a {
+  text-decoration: none
+}
+nav li {
+  background: white;
 }
 
-p{
-  background: green;
+
+.bio {
+  text-align: center;
 }
+
+.quote {
+  background: #651D0A;
+ width: 900px;
+  text-align: center;
+  margin: 0 0 0 16.7em;
+  
+}
+p, li {
+  font-family: 'Domine', serif;
+  font-size: 16px;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+h3 {
+ 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+
+
+h1,h2,h3,h4,li,p {
+  color: white;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#651D0A;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1 {
+  text-align: left;
+  border-bottom: 2px solid #000;
+  line-height: 50px;
+}
+nav {
+  text-align: center;
+}
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+@import url(https://fonts.googleapis.com/css?family=Domine);
+
+ 
+
